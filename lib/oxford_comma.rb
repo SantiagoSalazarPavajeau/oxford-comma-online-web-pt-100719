@@ -2,7 +2,7 @@ require "pry"
 def oxford_comma(array)
   # if statement to check how many elements are in the array
   if array.length == 1
-    # .join
+    # .join converts an array into a string
     array.join
   elsif array.length == 2 
     array.join(' and ')
