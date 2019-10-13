@@ -10,7 +10,9 @@ def oxford_comma(array)
     
   elsif array.length == 3
     return "#{array[0...-1].join(", ")}, and #{array.last}" 
-    #array[0...-1].join(", ")
+    #array[0...-1].join(", ") converts all elements but the last one to a string separated by a comma
+    #array.last accesses the last elements
+    # these two extractions from the array are 
   else array.length > 3
     return "#{array[0...-1].join(", ")}, and #{array.last}"
   end
