@@ -1,6 +1,8 @@
 require "pry"
 def oxford_comma(array)
-  if array.length == 1 
+  # if statement to check how many elements are in the array
+  if array.length == 1
+    # .join
     array.join
   elsif array.length == 2 
     array.join(' and ')
